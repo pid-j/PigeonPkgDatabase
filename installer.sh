@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ ! -d ".repos" ]] ; then
-  git clone --filter=blob:none --no-checkout "github.com/pid-j/PigeonPkgDatabase.git" ".repos"
+  git clone --filter=blob:none --no-checkout "https://github.com/pid-j/PigeonPkgDatabase.git" ".repos"
 fi
 
 cd ".repos"
