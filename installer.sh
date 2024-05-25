@@ -9,9 +9,9 @@ if [[ ! -d "$1" ]] ; then
 
   cd "$1"
   if [[ -f requirements.txt ]] ; then
-    cat requirements.txt || while read line; do
-      if [[ ! -d "../$line" ]] ; then $0 $line; fi
-    done
+    while read p; do
+      "$0" "$line"
+    done <requirements.txt
   fi
 fi
 
