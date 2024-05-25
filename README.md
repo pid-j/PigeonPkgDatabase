@@ -7,7 +7,8 @@ As of now, it is only officially supported on Linux-based operating systems. If 
 
 To contribute, create a new repository with the name "PigeonPkgDatabase-(package name)". Make sure it does not collide with other package names.
 You may rely on other work in this repository by using `../(package name)/(main script).sh` in your scripts.
-You must include a `main.sh` file.
+You must include a `main.sh` file. Then, open an issue with the subject: "Add package (package name)". Make sure to add
+a link to the repository. If the request is accepted, the package will be added.
 
 ## Usability
 
