@@ -11,5 +11,4 @@ You must include a `main.sh` file.
 
 ## Usability
 
-To use a package, clone the entire repository using git/gh. To check if your version is up-to-date, use `git fetch --dry-run`.
-This will automatically update the repository if it is outdated.
+To use a package, clone the entire repository using git/gh. If your version is missing packages, re-clone the repository.
