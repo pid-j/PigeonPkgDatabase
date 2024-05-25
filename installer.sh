@@ -10,7 +10,8 @@ if [[ ! -d "$1" ]] ; then
   cd "$1"
   if [[ -f requirements.txt ]] ; then
     while read line; do
-      if [[ ! -d "../$line" ]]; then "$0" "$line"; fi
+      BASEDIR=$(dirname $0)
+      if [[ ! -d "../$line" ]]; then ./installer.sh "$line"; fi
     done <requirements.txt
   fi
 fi
