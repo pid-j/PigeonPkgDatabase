@@ -9,7 +9,7 @@ if [[ ! -d "$1" ]] ; then
 
   cd "$1"
   if [[ -f requirements.txt ]] ; then
-    while read p; do
+    while read line; do
       if [[ ! -d "../$line" ]]; then "$0" "$line"; fi
     done <requirements.txt
   fi
