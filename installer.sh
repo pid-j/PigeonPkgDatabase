@@ -10,7 +10,7 @@ if [[ ! -d "$1" ]] ; then
   cd "$1"
   if [[ -f requirements.txt ]] ; then
     cat requirements.txt || while read line; do
-      if [[ ! -d "../$1" ]] ; then $0 line; fi
+      if [[ ! -d "../$line" ]] ; then $0 $line; fi
     done
   fi
 fi
