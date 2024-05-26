@@ -13,3 +13,8 @@ a link to the repository. If the request is accepted, the package will be added.
 ## Usability
 
 To use a package, clone the entire repository using git/gh. If your version is missing packages, re-clone the repository.
+
+## Examples
+
+There are 2 example packages: [helloworld](github.com/pid-j/PigeonPkgDatabase/tree/main/helloworld) and [exampleworld](github.com/pid-j/PigeonPkgDatabase/tree/main/exampleworld). You don't
+actually need them, but it is a simple example. exampleworld depends on helloworld, both are packages.
