@@ -16,5 +16,5 @@ To use a package, clone the entire repository using git/gh. If your version is m
 
 ## Examples
 
-There are 2 example packages: [helloworld](github.com/pid-j/PigeonPkgDatabase/tree/main/helloworld) and [exampleworld](github.com/pid-j/PigeonPkgDatabase/tree/main/exampleworld). You don't
+There are 2 example packages: [helloworld](https://github.com/pid-j/PigeonPkgDatabase/tree/main/helloworld) and [exampleworld](https://github.com/pid-j/PigeonPkgDatabase/tree/main/exampleworld). You don't
 actually need them, but it is a simple example. exampleworld depends on helloworld, both are packages.
